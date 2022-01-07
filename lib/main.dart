@@ -19,8 +19,8 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.green,
       ),
-      // home: MyHomePage(),
-      initialRoute: "/MyHomePage",
+       home: ContentPage(),
+      //initialRoute: "/MyHomePage",
       getPages: [
         GetPage(name: "/MyHomePage", page: ()=>MyHomePage()),
         
